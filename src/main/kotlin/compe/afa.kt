@@ -1,0 +1,4 @@
+package compe
+
+class afa {
+}

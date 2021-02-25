@@ -8,9 +8,12 @@ version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+    maven { url "https://dl.bintray.com/alfalifr/SidevLib" }
 }
 
 dependencies {
+    implementation "sidev.lib.kotlin:KtStdLib-jvm:0.0.1x.11112020"
+    implementation "sidev.lib.jvm:JvmStdLib:0.0.1xx"
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
